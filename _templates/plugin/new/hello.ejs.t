@@ -1,14 +1,14 @@
 ---
 to: <%= name %>/src/plugin-<%= name %>.tsx
 ---
-import { ViewLink } from '@bp/ui-components';
-import * as React from 'react';
-
 <%
  className = name.split('');
  className[0] = className[0].toUpperCase();
  className = className.join('');
 %>
+
+import { ViewLink } from '@bp/ui-components';
+import * as React from 'react';
 
 const <%= className %>: React.SFC = () => (
   <div>

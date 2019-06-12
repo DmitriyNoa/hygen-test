@@ -1,27 +1,26 @@
 ---
-to: <%= name %>/src/tests/<%= name %>.tsx
+to: <%= name %>/src/<%= name %>.test.tsx
 ---
-import { ViewLink } from '@bp/ui-components';
-import * as React from 'react';
-
 <%
  className = name.split('');
  className[0] = className[0].toUpperCase();
  className = className.join('');
 %>
 
-const <%= className %>: React.SFC = () => (
-  <div>
-    <h1>Greetings from the planet Earth!</h1>
-    <div>
-      <ViewLink linkData={{ id: 'tutorial3/welcome' }}>
-        Go to the Welcome view
-      </ViewLink>
-    </div>
-  </div>
-);
+import { ViewLink } from '@bp/ui-components';
+import { shallow } from 'enzyme';
+import * as React from 'react';
+import <%= className %> from './plugin-<%= name %>';
 
-export default <%= className %>;
+describe('<<%= className %>. />', () => {
+  it('should display title', () => {
+    const wrapper = shallow(<Greetings />);
+    expect(wrapper.find('h1').text()).toContain('<%= className %>');
+  });
 
-
-
+  it('should have link', () => {
+    const wrapper = shallow(<<%= className %> />);
+    const link = wrapper.find(ViewLink);
+    expect(link.prop('linkData')).toEqual({ id: 'tutorial3/welcome' });
+  });
+});
