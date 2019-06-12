@@ -1,5 +1,5 @@
 ---
-to: app/<%= name %>/plugin-<%= name %>.tsx
+to: <%= name %>/plugin-<%= name %>.tsx
 ---
 import { ViewLink } from '@bp/ui-components';
 import * as React from 'react';
