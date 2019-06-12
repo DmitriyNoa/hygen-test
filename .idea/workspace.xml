@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa6116b-4eca-49b2-8764-dcc9f2fc7a64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_templates/plugin/new/hello-view.ejs.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/plugin/new/hello-view.ejs.t" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/plugin/new/hello.ejs.t" beforeDir="false" afterPath="$PROJECT_DIR$/_templates/plugin/new/hello.ejs.t" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,20 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello-view.ejs.t">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -112,8 +110,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/_templates/plugin/new/hello.ejs.t" />
-        <option value="$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t" />
         <option value="$PROJECT_DIR$/_templates/plugin/new/hello-view.ejs.t" />
+        <option value="$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t" />
       </list>
     </option>
   </component>
@@ -209,12 +207,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560330291996</updated>
       <workItem from="1560330293188" duration="1335000" />
-      <workItem from="1560332816241" duration="430000" />
+      <workItem from="1560332816241" duration="588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1765000" />
+    <option name="totallyTimeSpent" value="1923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1629" y="-151" width="1562" height="986" extended-state="0" />
@@ -267,13 +265,6 @@
     <entry file="file://$PROJECT_DIR$/_templates/view/new/hello.ejs.t">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello.ejs.t">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -283,8 +274,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello-view.ejs.t">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_templates/plugin/new/hello-test.ejs.t">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
         </state>
       </provider>
     </entry>

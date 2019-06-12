@@ -14,7 +14,7 @@ import <%= className %> from './plugin-<%= name %>';
 
 describe('<<%= className %>. />', () => {
   it('should display title', () => {
-    const wrapper = shallow(<Greetings />);
+    const wrapper = shallow(<<%= className %> />);
     expect(wrapper.find('h1').text()).toContain('<%= className %>');
   });
 

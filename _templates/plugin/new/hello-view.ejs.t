@@ -12,8 +12,8 @@ import * as React from 'react';
 import <%= className %> from './<%= name %>';
 
 const <%= name %>View: View = {
-  id: 'tutorial3/<%= name %>'',
-  route: 'tutorial3/<%= name %>'',
+  id: 'tutorial3/<%= name %>',
+  route: 'tutorial3/<%= name %>',
   render: () => <<%= name %> />
 };
 
